@@ -1,0 +1,162 @@
+
+.container{
+    max-width: 1000px;
+
+}
+
+
+/*HEADER */
+header{
+    background-color: #483285;
+    height: 550px;
+    position: relative;
+}
+
+
+/*BOTON DE REGISTRO */
+.btn{
+    background-color: #4F81D6;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+/*DISEÑO DE Clases abiertas<br> registrate ahora!<br>*/
+.title{
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*LOGO VIRBELA MENU*/
+.logo{
+    width: 120px;
+}
+
+
+/*ROW CURSOS*/
+#row-evento{
+    background-color: #483285;
+}
+
+/**/
+.row{
+    margin: 0;
+}
+
+#row-evento img{
+    border-radius: 50%;
+    width: 350px;
+    height: 250px;
+}
+
+
+/*FONDO NOSOTROS*/
+#row-nosotros{
+    background-color: #483285;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+
+}
+
+#row-nosotros img{
+    border-radius: 50%;
+    width: 300px;
+}
+
+.title-color{
+    color: white;
+    font-weight: bold;
+}
+
+/*p que esta dentro de rowNosotros*/
+
+#row-nosotros p{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+.form-control{
+    border-radius: 50px;
+
+}
+
+
+/*FONDO FOOTER*/
+footer{
+    background-color:  #4B3A7F;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+
+footer a{
+    text-decoration: none;
+    color:white;
+}
+
+
+.lineaFooter {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 50px auto 0 auto;
+  }
+
+
+  #row-formulario{
+    background-color: #483285;
+  }
+
+
+/*Color de Menu al abrirse*/
+@media(max-width:992px){
+    .navbar-nav{
+        background-color: #4F81D6;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding-left: 20px;
+    }
+}
+
+nav{
+    z-index: 100;
+
+}
+
+
+
+/*TODO LOS DARK MODE A PARTIR DE ACA*/
+.dark-mode header {
+    background-color: #943B7A;
+  }
+
+
+.dark-mode #row-evento{
+    background-color: #943B7A;
+}
+
+.dark-mode #row-nosotros{
+    background-color: #943B7A;
+}
+
+.dark-mode footer{
+    background-color:  #B266B2;
+}
+
+.dark-mode  #row-formulario{
+    background-color: #943B7A;
+  }
